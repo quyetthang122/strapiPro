@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "xcards",
+  "info": {
+    "name": "Xcards"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "cardNumber": {
+      "type": "biginteger"
+    },
+    "cardAmount": {
+      "type": "decimal"
+    }
+  }
+}
